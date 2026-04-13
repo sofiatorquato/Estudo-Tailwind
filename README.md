@@ -12,13 +12,13 @@ A estilização é feita inline (no próprio HTML).
 O Tailwind usa principalmente REM (não pixels).
 
 Exemplo:
-<h1 class="m-4">Oi</h1>
+``<h1 class="m-4">Oi</h1>``
 
 4 → 4 * 0.25rem = 1rem = 16px
 
 Também é possível usar valores personalizados:
 
-<h1 class="m-[16px]">Oi</h1>
+``<h1 class="m-[16px]">Oi</h1>``
 
 ---
 
@@ -59,12 +59,12 @@ background-color -> bg
 color (texto) -> text
 
 Exemplo com escala do Tailwind:
-<h1 class="bg-blue-500">Oi</h1>
+``<h1 class="bg-blue-500">Oi</h1>``
 
 ⚠️ (corrigido: você escreveu bg-blue-5005, o certo é 500)
 
 Também pode usar valor customizado:
-<h1 class="bg-[#ff00ff]">Oi</h1>
+``<h1 class="bg-[#ff00ff]">Oi</h1>``
 
 ---
 
@@ -77,18 +77,18 @@ text-xl
 text-2xl
 
 Ex:
-<h1 class="text-white text-2xl">Oi</h1>
+``<h1 class="text-white text-2xl">Oi</h1>``
 
 Peso da fonte:
 
-<h1 class="font-bold">Oi</h1>
+``<h1 class="font-bold">Oi</h1>``
 (font-weight: 700)
 
 ---
 
 ## 🔠 ESPAÇAMENTO ENTRE LETRAS
 
-<h1 class="tracking-widest">Oi</h1>
+``<h1 class="tracking-widest">Oi</h1>``
 
 ---
 
@@ -98,11 +98,11 @@ Flex:
 
 display: flex;
 
-<h1 class="flex">Oi</h1>
+``<h1 class="flex">Oi</h1>``
 
 Direção:
 
-<h1 class="flex flex-col">Oi</h1>
+``<h1 class="flex flex-col">Oi</h1>``
 
 (row é padrão)
 
@@ -112,7 +112,7 @@ Grid:
 
 grid-template-columns: repeat(3, minmax(0, 1fr));
 
-<h1 class="grid grid-cols-3">Oi</h1>
+``<h1 class="grid grid-cols-3">Oi</h1>``
 
 ---
 
@@ -122,7 +122,7 @@ height -> h
 width -> w
 
 Ex:
-<button class="h-12 w-24">Click me</button>
+``<button class="h-12 w-24">Click me</button>``
 
 Altura total da tela:
 h-screen
@@ -138,7 +138,7 @@ min-width -> min-w
 min-height -> min-h
 
 Ex:
-<div class="min-h-screen"></div>
+``<div class="min-h-screen"></div>``
 
 ---
 
@@ -148,9 +148,9 @@ Formato:
 estado:propriedade-valor
 
 Ex:
-<button class="hover:bg-red-500 hover:text-white">
+``<button class="hover:bg-red-500 hover:text-white">
   Click me
-</button>
+</button>``
 
 ---
 
@@ -166,7 +166,7 @@ lg -> 1024px
 xl -> 1280px
 
 Ex:
-<div class="bg-red-500 md:bg-blue-500 lg:bg-green-500"></div>
+``<div class="bg-red-500 md:bg-blue-500 lg:bg-green-500"></div>``
 
 Resultado:
 mobile -> sm
